@@ -78,6 +78,10 @@ cpuflags=
 	\
 	--enable-libxml2 \
 	\
+	--enable-libssh \
+	\
+	--enable-libsmbclient \
+	\
 	--enable-avutil \
 	--enable-avcodec \
 	--enable-avfilter \
@@ -111,6 +115,8 @@ cpuflags=
 	--enable-protocol=tcp \
 	--enable-protocol=tls \
 	--enable-protocol=srt \
+	--enable-protocol=smb \
+	--enable-protocol=sftp \
 	\
 	--enable-network \
 
